@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+
 
 const mongoose = require('mongoose')
 const userModel = require("./model")
@@ -21,6 +21,6 @@ app.post('/Contact', (req, res) => {
 });
 
 // Start the server
-app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
-});
+ const PORT = process.env.PORT || 3000;
+app.listen(PORT,function(){
+    console.log("server is running....");
