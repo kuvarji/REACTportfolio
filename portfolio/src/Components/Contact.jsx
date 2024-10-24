@@ -25,7 +25,7 @@ function Contact() {
 
     const handlesubmit = (e)=>{
         e.preventDefault()
-        axios.post("http://localhost:3000/Contact",{name,mobile,add})
+        axios.post("https://reactportfolio-backend-znfh.onrender.com/Contact",{name,mobile,add})
         .then(result => console.log(result.data))
         
         
