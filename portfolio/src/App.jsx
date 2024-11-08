@@ -24,12 +24,8 @@ const router = createBrowserRouter(
   element: <div className='bg-gradient-to-br w-full h-max from-yellow-200 via-neutral-200 to-cyan-400 '>
    <Navbar />
     <Intro/>
-    
      <Social/>
-     
      <About/>
-     
-     
      <Design/>
      <Prolink/>
      <Scroll/>
@@ -38,7 +34,6 @@ const router = createBrowserRouter(
      <Certi/>
      <Internship/>
      <Lets/>
-    
     <Footer/>   
 
     </div>
@@ -86,14 +81,7 @@ function App() {
     <>
     <RouterProvider router={router}/>
     
-    
 
-    
-      
-      
-     
-      
-      
     
     </>
   )

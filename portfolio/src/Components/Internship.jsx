@@ -49,6 +49,10 @@ function Internship() {
             <h1 className="text-4xl  ct sm:text-6xl  flex items-start font-ralway font-bold ">
             Experience
             </h1>
+            <h1 className="text-slate-700 ct opacity-90 mt-8 font-ralway text-xs sm:text-2xl">  
+        
+            Gained hands-on experience in web development during an internship at Codsoft, focusing on building responsive websites. Developed skills in HTML, CSS, JavaScript, and back-end integration, contributing to dynamic projects and enhancing knowledge in front-end and full stack development.
+</h1>
             <div className="mt-10">
                 <h1 className="text-md ct sm:text-xl flex items-start font-ralway font-medium px-2 py-2 bg-slate-200 border-[1px] border-slate-300 rounded-md bg-opacity-30 mt-4">
                     Company Name - CodSoft

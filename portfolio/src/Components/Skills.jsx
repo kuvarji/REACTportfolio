@@ -5,6 +5,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useGSAP } from '@gsap/react'
 import gsap from "gsap"
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import Skillsdescription from "./Skillsdescription";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -32,12 +33,7 @@ function Skills() {
   return (
 
     <div className="w-full h-auto p-0 mt-12 sm:mt-16 ">
-      <div className="w-full  sm:px-20  px-8 py-5">
-        <h1 className="text-black skl font-ralway text-4xl sm:text-6xl  font-semibold tracking-tighter mt-2 mb-4">
-        Skills
-        </h1>
-   
-      </div>
+      <Skillsdescription/>
         {/* 1 */}
       <motion.div
       style={{
