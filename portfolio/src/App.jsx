@@ -13,7 +13,7 @@ import Projects from './Components/Projects'
 import Prolink from './Components/Prolink'
 import Scroll from './Components/Scroll'
 import Skills from './Components/Skills'
-import Social from './Components/social'
+import Social from './Components/Social'
 import {createBrowserRouter ,RouterProvider} from "react-router-dom"
 
 

@@ -17,7 +17,7 @@ function About() {
 
       scrollTrigger: {
         trigger: '.abt ,#me ',
-        start: 'top 55%',  // When the top of the element hits 80% of the viewport height
+        start: 'top 50%',  // When the top of the element hits 80% of the viewport height
         
  // Show markers to help debug
       },
