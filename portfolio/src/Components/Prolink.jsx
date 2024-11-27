@@ -63,7 +63,7 @@ function Prolink() {
 
      </div>
      {visibleDiv === 'first' && (
-        <Complete name= {img1}/>        
+        <Complete name= {img1} link= {"https://newartics.onrender.com/"} pname="This is Article or News Website in which you can perform CRUD operation  "/>        
         )}
 
 {visibleDiv === 'second' && (
@@ -71,7 +71,7 @@ function Prolink() {
     )}
 
 {visibleDiv === 'third' && (
-    <Complete name= {img3}/>
+    <Complete name= {img3} link={"https://main--nss-certificates.netlify.app/"} pname="This is certificates Website in which you can download your certificate if you are valid person  "/>
     )}
     </div>
   )

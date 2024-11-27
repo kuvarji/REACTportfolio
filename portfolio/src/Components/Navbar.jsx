@@ -37,7 +37,7 @@ return (
     <div className=" w-full h-auto flex justify-between">
       {/* name div */}
 <div className="w-full h-[50px] sm:h-[70px] md:h-[80px]  items-center rounded-l-md  flex  ">
-<div id="port" className="px-2 py-2 border-[1px] border-black rounded-tr-xl rounded-br-md flex items-center justify-center ">
+<div id="port" className="px-2 py-2 border-[1px] border-black  flex items-center justify-center ">
   <h1 id="portfolio" className="font-railway  font-semibold  text-sm sm:text-4xl">
     Portfolio
   </h1>

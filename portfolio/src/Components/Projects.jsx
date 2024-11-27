@@ -1,4 +1,5 @@
 import {motion} from'framer-motion'
+import { Link } from "react-router-dom"
 
 function Projects() {
   return (
@@ -11,8 +12,9 @@ function Projects() {
         className="flex scroll-smooth"
         >
 
-       
+   <Link to="https://newartics.onrender.com/">   
 <div className="pl-60 sm:pl-80 sm:w-full  leading-none pr-2 scroll-smooth">
+  
         <div className="w-[250px] sm:w-[500px] sm:h-[300px] h-[150px] border-2 rounded-md px-1 py-1 bg-slate-200">
           <div className="w-full h-[120px] sm:h-[220px] rounded-md bg-gradient-to-r from-slate-300 to-slate-500">
             <img
@@ -28,7 +30,7 @@ function Projects() {
           </div>
         </div>
       </div>
-
+      </Link> 
         <div className="pl-60 sm:pl-80 sm:w-full  leading-none pr-2 scroll-smooth">
         <div className="w-[250px] sm:w-[500px] sm:h-[300px] h-[150px] border-2 rounded-md px-1 py-1 bg-slate-200">
           <div className="w-full h-[120px] sm:h-[220px] rounded-md bg-gradient-to-r from-slate-300 to-slate-500">
@@ -45,6 +47,8 @@ function Projects() {
           </div>
         </div>
       </div>
+      <Link to="https://main--nss-certificates.netlify.app/">
+
       <div className="pl-60 sm:pl-80 sm:w-full leading-none pr-2 scroll-smooth">
         <div className="w-[250px] sm:w-[500px] sm:h-[300px] h-[150px] border-2 rounded-md px-1 py-1 bg-slate-200">
           <div className="w-full h-[120px] sm:h-[220px] rounded-md bg-gradient-to-r from-slate-300 to-slate-500">
@@ -61,6 +65,7 @@ function Projects() {
           </div>
         </div>
       </div>
+      </Link>
 
         </motion.div>
       </div>
