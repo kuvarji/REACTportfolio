@@ -42,7 +42,7 @@ function Projects() {
             />
             <center>
               <h1 className="text-xs flex items-center justify-center pt-5 sm:text-lg font-ralway text-black font-semibold mt-1">
-                Full-stack React-App
+                Event- Managment
               </h1>
             </center>
           </div>

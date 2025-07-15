@@ -34,7 +34,7 @@ function Social() {
         <Link to="#">  <div className=" social w-[25px] h-[25px] sm:w-[40px] sm:h-[40px] rounded-full ">
             <img src="x.png" alt="" />
         </div></Link>
-        <Link to="https://www.instagram.com/kuvarji_gupta_0101/"> <div className=" social w-[25px] h-[25px] sm:w-[40px] sm:h-[40px] rounded-full ">
+        <Link to="https://www.instagram.com/kuvarji_gupta_/"> <div className=" social w-[25px] h-[25px] sm:w-[40px] sm:h-[40px] rounded-full ">
             <img src="insta.png" alt="" />
         </div></Link>
       </div>
