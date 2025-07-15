@@ -12,7 +12,7 @@ function Projects() {
         className="flex scroll-smooth"
         >
 
-   <Link to="https://newartics.onrender.com/">   
+   <Link to="https://artics.onrender.com/">   
 <div className="pl-60 sm:pl-80 sm:w-full  leading-none pr-2 scroll-smooth">
   
         <div className="w-[250px] sm:w-[500px] sm:h-[300px] h-[150px] border-2 rounded-md px-1 py-1 bg-slate-200">
