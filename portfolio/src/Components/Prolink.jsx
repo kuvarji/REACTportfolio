@@ -63,11 +63,11 @@ function Prolink() {
 
      </div>
      {visibleDiv === 'first' && (
-        <Complete name= {img1} link= {"https://newartics.onrender.com/"} pname="This is Article or News Website in which you can perform CRUD operation  "/>        
+        <Complete name= {img1} link= {"https://artics.onrender.com/"} pname="This is Article or News Website in which you can perform CRUD operation  "/>        
         )}
 
 {visibleDiv === 'second' && (
-    <Complete name= {img2}/>
+    <Complete name= {img2} link= {"https://kuvarji.github.io/Event-managment-website/"} pname="This is Event- Managment Website  in which you can perform CRUD operation  " />
     )}
 
 {visibleDiv === 'third' && (

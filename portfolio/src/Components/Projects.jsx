@@ -31,6 +31,7 @@ function Projects() {
         </div>
       </div>
       </Link> 
+       <Link to="https://kuvarji.github.io/Event-managment-website/">
         <div className="pl-60 sm:pl-80 sm:w-full  leading-none pr-2 scroll-smooth">
         <div className="w-[250px] sm:w-[500px] sm:h-[300px] h-[150px] border-2 rounded-md px-1 py-1 bg-slate-200">
           <div className="w-full h-[120px] sm:h-[220px] rounded-md bg-gradient-to-r from-slate-300 to-slate-500">
@@ -47,6 +48,7 @@ function Projects() {
           </div>
         </div>
       </div>
+       </Link>
       <Link to="https://main--nss-certificates.netlify.app/">
 
       <div className="pl-60 sm:pl-80 sm:w-full leading-none pr-2 scroll-smooth">
