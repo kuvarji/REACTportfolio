@@ -14,7 +14,7 @@ function Complete(props) {
               alt="Full-stack News web"
             />
             <center>
-              <h1 className="text-sm font-ralway text-black font-normal mt-4">
+              <h1 className="sm:text-sm text-[10px] font-ralway text-black font-normal mt-4">
                 {props.pname}
               </h1>
             </center>

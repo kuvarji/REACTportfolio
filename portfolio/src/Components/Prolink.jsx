@@ -41,20 +41,20 @@ function Prolink() {
     <div className="w-full h-auto px-5 mt-4 sm:px-24 sm:mt-10 pb-5 ">
      <div className="w-full h-auto px-2 py-4 flex justify-start gap-8 sm:gap-20">
 
-        <button onClick={showFirstDiv}  className="px-3 bt sm:px-6 sm:py-3 sm:text-base   focus:bg-black  text-black opacity-80 focus:text-white  font-ralway text-[5px] drop-shadow-md border-[1px] border-slate-500 rounded-3xl   py-2" type="button">
+        <button onClick={showFirstDiv}  className="px-3 bt sm:px-6 sm:py-3 sm:text-base   focus:bg-black  text-black opacity-80 focus:text-white  font-ralway text-[10px] drop-shadow-md border-[1px] border-slate-500 rounded-3xl   py-2" type="button">
           
             Project 1
            
         </button>
 
-        <button  onClick={showSecondDiv} className="px-3 bt sm:px-6 sm:py-3 sm:text-base  focus:bg-black  text-black opacity-80 focus:text-white  font-ralway text-[5px] drop-shadow-md border-[1px] border-slate-500 rounded-3xl   py-2" type="button">
+        <button  onClick={showSecondDiv} className="px-3 bt sm:px-6 sm:py-3 sm:text-base  focus:bg-black  text-black opacity-80 focus:text-white  font-ralway text-[10px] drop-shadow-md border-[1px] border-slate-500 rounded-3xl   py-2" type="button">
          
             Project 2
           
         </button>
 
 
-        <button onClick={showThirdDiv} className="px-3 bt sm:px-6 sm:py-3 sm:text-base  focus:bg-black  text-black opacity-80 focus:text-white  font-ralway text-[5px] drop-shadow-md border-[1px] border-slate-500 rounded-3xl   py-2" type="button">
+        <button onClick={showThirdDiv} className="px-3 bt sm:px-6 sm:py-3 sm:text-base  focus:bg-black  text-black opacity-80 focus:text-white  font-ralway text-[10px] drop-shadow-md border-[1px] border-slate-500 rounded-3xl   py-2" type="button">
           
             Project 3
           
@@ -63,7 +63,7 @@ function Prolink() {
 
      </div>
      {visibleDiv === 'first' && (
-        <Complete name= {img1} link= {"https://artics.onrender.com/"} pname="This is Article or News Website in which you can perform CRUD operation  "/>        
+        <Complete  name= {img1} link= {"https://artics.onrender.com/"} pname="This is Article or News Website in which you can perform CRUD operation  "/>        
         )}
 
 {visibleDiv === 'second' && (
